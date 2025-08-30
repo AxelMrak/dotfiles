@@ -2,3 +2,6 @@
 	path = packages/nvim/.config/nvim
 	url = https://github.com/AxelMrak/nvim.git
 	branch = main
+[submodule "packages/mcp/.mcphub/servers"]
+	path = packages/mcp/.mcphub/servers
+	url = https://github.com/modelcontextprotocol/servers.git
