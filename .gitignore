@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+# stow backup
+*.bak
+# logs
+*.log
+# node_modules or caches, just in case
+node_modules/
+.cache/
+
+# Common secrets/sensitive patterns (defense-in-depth)
+.env
+.env.*
+*.pem
+*.key
+*.crt
+secrets.*
+*.token
+*.credentials
