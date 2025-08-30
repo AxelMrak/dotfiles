@@ -24,8 +24,14 @@ Quick Start
 
    - All packages:
      - `bash scripts/bootstrap.sh`
-   - Specific packages only:
+- Specific packages only:
      - `bash scripts/bootstrap.sh nvim tmux git`
+
+Submodules
+----------
+- This repo uses Git submodules for Neovim config and MCP servers.
+- Clone with submodules: `git clone --recursive <this-repo>`
+- Or after cloning: `git submodule update --init --recursive`
 
 Notes
 -----
@@ -40,4 +46,3 @@ Notes
 Safety
 ------
 - The bootstrap script only creates symlinks; it will not overwrite existing real files. If a target exists, the script will skip and report it.
-
